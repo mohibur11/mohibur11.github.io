@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" data-critters-container>
+  <head>
+    <meta charset="utf-8">
+    <title>TestAngular</title>
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+      let pushStateRef = history.pushState;
+      let replaceStateRef = history.replaceState;
+    </script>
+
+    <script type="text/javascript" src="https://appsforoffice.microsoft.com/lib/1.1/hosted/office.js"></script>
+
+    <link rel="stylesheet" href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-js/1.4.0/css/fabric.min.css">
+
+    <link rel="stylesheet" href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-js/1.4.0/css/fabric.components.min.css">
+
+    <script src="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-js/1.4.0/js/fabric.min.js"></script>
+
+    <script>
+      history.pushState = pushStateRef;
+      history.replaceState = replaceStateRef;
+      delete pushStateRef;
+      delete replaceStateRef;
+    </script>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="styles.ef46db3751d8e999.css"></head>
+  <body>
+    <app-root></app-root>
+  <script src="runtime.d4134136305e4200.js" type="module"></script><script src="polyfills.c54114de0fdccb0d.js" type="module"></script><script src="main.be2480302f3739ac.js" type="module"></script></body>
+</html>
